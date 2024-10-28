@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Función que invierte las palabras de una cadena de texto
-invertir_cadena() {
+function invertir_cadena() {
     local cadena="$1"
     
     if [[ -z "$cadena" ]]; then
